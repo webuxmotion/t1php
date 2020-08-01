@@ -1,0 +1,7 @@
+vendor/*
+
+.idea
+node_modules
+!tmp
+
+!public/dist

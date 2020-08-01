@@ -1,0 +1,52 @@
+$xs: 800px;
+$lg: 1100px;
+
+@mixin fronzymin($min) {
+  @media screen and (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin fronzymax($max) {
+  @media screen and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin fronzyfromto($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin fronzy($bp) {
+  @if $bp == "xs" {
+    @media screen and (max-width: $xs) {
+      @content;
+    }
+  }
+
+  @else if $bp == "mdleft" {
+    @media screen and (max-width: ($lg - 1)) {
+      @content;
+    }
+  }
+
+  @else if $bp == "md" {
+    @media (min-width: ($xs + 1)) and (max-width: ($lg - 1)) {
+      @content;
+    }
+  }
+  
+  @else if $bp == "mdright" {
+    @media screen and (min-width: ($xs + 1)) {
+      @content;
+    }
+  }
+  
+  @else if $bp == "lg" {
+    @media screen and (min-width: $lg) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.page-404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+
+  &__content {
+    text-align: center;
+  }
+
+  &__number {
+    font-size: 120px;
+  }
+
+  &__title {
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}

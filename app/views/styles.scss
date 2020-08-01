@@ -1,0 +1,19 @@
+@import './reset';
+@import './vars';
+@import './fronzy';
+
+@import './Error/styles';
+
+@import './blocks/Header/styles';
+@import './blocks/Footer/styles';
+@import './blocks/LangTpl/styles';
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  height: 100%;
+}
