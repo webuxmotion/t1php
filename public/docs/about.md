@@ -1,3 +1,6 @@
+# Controller
+
+```php
 <?php
 
 namespace core\base;
@@ -88,3 +91,4 @@ abstract class Controller
     return $id;
   }
 }
+```

@@ -16,3 +16,19 @@
 ===========
 [2020-11-28 16:06:48] Error text: syntax error, unexpected ')', expecting variable (T_VARIABLE) | File: /var/www/html/app/controllers/MainController.php | String number: 17
 ===========
+[2020-11-28 17:12:56] Error text: Cannot connect to DB | File: /var/www/html/core/Db.php | String number: 16
+===========
+[2020-11-28 17:38:10] Error text: Class 'core\libs\Markdown' not found | File: /var/www/html/core/base/Controller.php | String number: 73
+===========
+[2020-11-28 17:38:40] Error text: Call to undefined method core\libs\Markdown::consumefencedcode() | File: /var/www/html/vendor/cebe/markdown/Parser.php | String number: 195
+===========
+[2020-11-28 17:38:41] Error text: Call to undefined method core\libs\Markdown::consumefencedcode() | File: /var/www/html/vendor/cebe/markdown/Parser.php | String number: 195
+===========
+[2020-11-28 17:39:08] Error text: Call to undefined method core\libs\Markdown::renderfencedCode() | File: /var/www/html/vendor/cebe/markdown/Parser.php | String number: 203
+===========
+[2020-11-28 18:24:01] Error text: Controller app\controllers\AboutController not found | File: /var/www/html/core/Router.php | String number: 52
+===========
+[2020-11-28 18:24:06] Error text: Controller app\controllers\AboutController not found | File: /var/www/html/core/Router.php | String number: 52
+===========
+[2020-11-28 18:25:45] Error text: View /var/www/html/app/views/About/index.php not found | File: /var/www/html/core/base/View.php | String number: 49
+===========

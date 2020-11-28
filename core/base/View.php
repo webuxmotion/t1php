@@ -65,6 +65,13 @@ class View
     $controllerClass->block($filePath, $data);
   }
 
+  public function doc($filename, $data = null) {
+    $controllerClass = App::$app->getProperty('controller');
+    $res = $controllerClass->doc($filename);
+
+    return $res;
+  }
+
   public function getMeta() {
     $output = '<title>' . $this->meta['title'] . '</title>' . PHP_EOL;
     $output .= '<meta name="description" content="' . $this->meta['desc'] . '">' . PHP_EOL;

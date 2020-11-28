@@ -2,4 +2,4 @@
 
 <?=__('read_more', true)?>
 
-<?=$this->block('Hero')?>
+<?=$this->doc('index')?>
