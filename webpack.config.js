@@ -120,7 +120,21 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|svg|gif)$/,
-                use: ['file-loader']
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            outputPath: '../dist',
+                            name() {
+                                if (process.env.NODE_ENV === 'development') {
+                                    return '[name].[ext]';
+                                }
+                    
+                                return '[contenthash].[ext]';
+                            },
+                        },
+                    }
+                ],
             },
             {
                 test: /\.(ttf|woff|woff2|eot)$/,

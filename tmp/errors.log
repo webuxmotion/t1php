@@ -1,0 +1,18 @@
+[2020-11-28 16:02:16] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 't1php_db.lang' doesn't exist | File: /var/www/html/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | String number: 194
+===========
+[2020-11-28 16:02:17] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 't1php_db.lang' doesn't exist | File: /var/www/html/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | String number: 194
+===========
+[2020-11-28 16:02:18] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 't1php_db.lang' doesn't exist | File: /var/www/html/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | String number: 194
+===========
+[2020-11-28 16:02:18] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 't1php_db.lang' doesn't exist | File: /var/www/html/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | String number: 194
+===========
+[2020-11-28 16:02:26] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 't1php_db.lang' doesn't exist | File: /var/www/html/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | String number: 194
+===========
+[2020-11-28 16:02:26] Error text: SQLSTATE[42S02]: Base table or view not found: 1146 Table 't1php_db.lang' doesn't exist | File: /var/www/html/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | String number: 194
+===========
+[2020-11-28 16:06:40] Error text: syntax error, unexpected ')', expecting variable (T_VARIABLE) | File: /var/www/html/app/controllers/MainController.php | String number: 17
+===========
+[2020-11-28 16:06:48] Error text: syntax error, unexpected ')', expecting variable (T_VARIABLE) | File: /var/www/html/app/controllers/MainController.php | String number: 17
+===========
+[2020-11-28 16:06:48] Error text: syntax error, unexpected ')', expecting variable (T_VARIABLE) | File: /var/www/html/app/controllers/MainController.php | String number: 17
+===========
